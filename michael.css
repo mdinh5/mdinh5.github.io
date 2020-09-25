@@ -1,0 +1,81 @@
+.background {
+ background-image: url("background.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+}
+.center {
+  text-align: center;
+}
+.font{
+ font-family: Helvetica;
+ color: #b9d7ea;
+ 
+}
+.fonts{
+	font-family: Helvetica;
+	color: #000000;
+}
+.img{
+	border-radius: 8px;
+	max-width: 10%;
+    max-height: 10%;
+	color: #000000;
+}
+
+.assignment-table.centered-table  {
+    border: solid 0px #DDEEEE;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 150px;
+	width: 50%;
+    height: 50%;
+}
+.assignment-table thead th:first-child {
+    border-radius: 52px 0 0 0;
+}
+.assignment-table thead th:last-child {
+    border-radius: 0 52px 0 0;
+}
+.assignment-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 52px 0;
+}
+.assignment-table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 52px;
+}
+
+	.assignment-table tr:nth-child(odd) { 
+	  background: #F9B3A1;
+	}
+  
+ 
+  
+	.assignment-table tr:nth-child(even){
+		background: #E14720;
+ 
+}
+.assignment-table thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #01060d;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+        
+}
+.assignment-table tbody td {
+    border: solid 1px #DDEEEE;
+    color: ##000000;
+	text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+a{
+	color: #000000;
+}
+span.state{
+color: red;
+font-weight: bold;
+}
