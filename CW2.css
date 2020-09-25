@@ -1,0 +1,59 @@
+.ex3h1{
+color:red;
+margin-left:2cm;
+}
+.ex3h2{
+color:red;
+margin-left:4cm;
+}
+.ex3p{
+text-indent:2cm;
+color:darkred;
+margin-left:6cm;
+}
+.ex4fonts1{
+font-family: Arial;
+font-size: 14px;
+}
+.ex4fonts2{
+font-family: Arial;
+font-size: 12px;
+}
+.ex4b{
+	font-weight: bold;
+}
+.ex4n{
+	font-weight: normal;
+	color: Khaki;
+}
+.ex4verse{
+	font-size:14px;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	color: gold;
+	margin-left: 2cm;
+	margin-right: 2cm;
+}
+.ex4chorus{
+	font-size:14px;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-style: italic;
+	color: gold;
+	margin-left: 4cm;
+	margin-right: 4cm;
+}
+.ex4color{
+	color: Moccasin;
+}
+.ex4color2{
+	color: Ivory;
+}
+.ex4body{
+background: Chocolate;
+}
+	
+
+
+
+	
