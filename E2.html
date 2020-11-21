@@ -1,0 +1,47 @@
+<html>
+
+<script src="script.js" >
+
+</script>
+
+<head>
+
+<title>E2</title>
+
+</head>
+
+<body onload="init()">
+
+<audio id="myAudio">
+  <source src="coin.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Guess a number between 1-100</p>
+<input type="text" name="number" id="number">
+
+<button href="#" onclick="playAudio();check_num()">Guess</button>
+
+<p id="attempts"></p>
+
+
+<p id="status"></p>
+<script type="text/javascript">
+countDown(10,"status");
+</script>
+
+<script>
+var x = document.getElementById("myAudio"); 
+function playAudio() { 
+  x.play(); 
+}
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
